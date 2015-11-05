@@ -1,0 +1,275 @@
+.bhead {
+    background: url("../img/background.jpg") no-repeat scroll;
+    background-size: 100% 100%;
+    height: 700px;
+}
+
+div.ads {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+div.left {
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+
+div.right {
+    float: right;
+    width: 45%;
+    height: 100%;
+}
+
+div.box {
+    border: 1px solid #000000;
+    height: 100%;
+}
+
+p.title {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 24pt;
+}
+
+div.cont {
+    margin-left: 100px;
+    margin-bottom: 300px;
+}
+
+div.video {
+    width: 100%;
+    height: 75%;
+    border: 1px solid #000000;
+}
+
+div.testi {
+    width: 25%;
+    height: 300px;
+    float: left;
+    margin-right: 100px;
+}
+
+div.navigasi {
+    height: 130px;
+    background-color: #c20000;
+    margin-bottom: 20px;
+}
+
+div.portal {
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+div.hportal {
+    border: 1px solid #7f7f7f;
+    margin-left: 20px;
+    float: left;
+    width: 23.3%;
+    height: 500px;
+}
+
+div.agenda {
+    background-color: #fc6700;
+    height: 100px;
+}
+
+div.nusantara {
+    background-color: #09c8ff;
+    height: 100px;
+}
+
+div.belanja {
+    background-color: #4eb700;
+    height: 100px;
+}
+
+div.komunitas {
+    background-color: #fbcf00;
+    height: 100px;
+}
+
+img.logo {
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+img.icon {
+    margin-top: 5px;
+    height: 40px;
+}
+
+div.footer-left {
+    margin-left: 100px;
+}
+
+div.footer-right {
+    margin-right: 30px;
+}
+
+div.group1 {
+    float: left;
+    margin-right: 50px;
+}
+
+div.group2 {
+    float: right;
+    margin-right: 10px;
+}
+
+div.group3 {
+    float: right;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+
+a.about {
+    font-size: 14pt;
+    color: white;
+}
+
+ul.menu {
+    float: left;
+}
+
+img.youtube {
+    margin-left: 50px;
+    height: 100%;
+}
+
+@media screen and (max-width: 780px) {
+    .bhead {
+        background: url("../img/background.jpg") no-repeat scroll;
+        background-size: 100% 100%;
+        height: 200px;
+    }
+
+    div.ads {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+
+    div.left {
+        float: left;
+        width: 45%;
+        height: 100%;
+    }
+
+    div.right {
+        float: right;
+        width: 45%;
+        height: 100%;
+    }
+
+    div.box {
+        border: 1px solid #000000;
+        height: 100%;
+    }
+
+    p.title {
+        text-align: center;
+        margin-top: 8px;
+        font-size: 10pt;
+    }
+
+    div.cont {
+        margin-left: auto;
+        height: 450px;
+    }
+
+    div.testi {
+        margin-left: 40px;
+        width: 80%;
+        height: 250px;
+    }
+
+    div.video {
+        width: 100%;
+        height: 75%;
+        border: 1px solid #000000;
+    }
+
+    img.youtube {
+        height: 100%;
+    }
+
+    div.navigasi {
+        height: 100px;
+        background-color: #c20000;
+        margin-bottom: 20px;
+    }
+
+    div.portal {
+        height: 1660px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
+
+    div.hportal {
+        border: 1px solid #7f7f7f;
+        margin-left: auto;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 400px;
+    }
+
+    div.agenda {
+        background-color: #fc6700;
+        height: 80px;
+    }
+
+    div.nusantara {
+        background-color: #09c8ff;
+        height: 80px;
+    }
+
+    div.belanja {
+        background-color: #4eb700;
+        height: 80px;
+    }
+
+    div.komunitas {
+        background-color: #fbcf00;
+        height: 80px;
+    }
+
+    img.logo {
+        height: 45px;
+        margin-top: 16px;
+        margin-left: 50px;
+    }
+
+    div.footer-left {
+        display: none;
+        visibility: hidden;
+        margin-left: auto;
+    }
+
+    div.footer-right {
+        margin-right: auto;
+    }
+
+    div.group2 {
+        float: right;
+        margin-top: 12px;
+        margin-right: 8px;
+    }
+
+    div.group3 {
+        float: right;
+        margin-left: 30px;
+        margin-top: 14px;
+    }
+
+    a.about {
+        font-size: 12pt;
+        color: white;
+    }
+
+    img.icon {
+        height: 20px;
+    }
+}
